@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shemma Enterprises</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="shortcut icon" href="crane.png">
+
+</head>
+<style>
+
+.jumbotron {
+     margin: 0;
+     background: url(bg.jpg);
+     background-size: 1440px 800px;
+     background-repeat:no-repeatdisplay: compact;
+     font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+</style>
+<body>
+
+<div class="container">
+   <a href="HOME.html">
+  <button type="button" class="btn btn-primary">HOME</button></a>
+  <a href="SERVICE.html">
+  <button type="button" class="btn btn-primary active">SERVICES</button></a>
+<a href="CONTACT US.html">  
+<button type="button" class="btn btn-primary active">CONTACT US</button></a>
+</div>
+
+<div class="jumbotron text-center">
+ <h1>Shemma Enterprises Tower Crane Alimak Specialist</h1>
+  <p>Handle the works tower crane erection and dismantling</p>
+</div>
+  
+
+
+<div class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> SOUTHVILLE 9 BARAS RIZAL</p>
+      <p><span class="glyphicon glyphicon-phone"></span> GLOBE 09056050710/09553467427</p>
+      <p><span class="glyphicon glyphicon-phone"></span> SMART 09082047127</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> kriphergatase23@gmail.com</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+
+
+</script>
+
+</body>
+</html>
